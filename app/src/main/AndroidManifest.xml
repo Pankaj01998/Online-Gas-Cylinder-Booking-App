@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.bhojajimaharajgasagency">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".TrackOrders"
+            android:label="Track Orders"/>
+
+
+        <activity android:name=".Login"
+        android:label="Login"/>
+
+        <activity android:name=".Previous_Orders"
+            android:label="Previous Orders"/>
+
+        <activity android:name=".OrderConfirmed"
+            android:label="Order Confirmed"/>
+
+
+        <activity android:name=".Order"
+            android:label="Order Page"/>
+
+
+        <activity android:name=".Info_Page"
+            android:label="Info Page"/>
+
+        <activity android:name=".Home_Page"
+            android:label="Home"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
